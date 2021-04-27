@@ -1,29 +1,34 @@
-# App Info
-ios_app_id                                : 1535360671                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+host: 0.0.0.0
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+#page title
+page_title                                : Frame Grabber                             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                : 1434703541                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             : https://apps.apple.com/app/frame-grabber/id1434703541 # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : iThemes - App Icon Changer                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/appicon-v1.3.1.png                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually. When chaning, use new filename for cache busting.
+app_name                                  : Frame Grabber                             # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : "iThemes - App Icon Changer -- Make your aesthetic home screen themes!"
+app_description                           : Capture amazing video moments.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Anh Nguyen
-your_link                                 : https://anhnc.me/
-your_city                                 : Atlanta, GA
-email_address                             : anhz.n92@gmail.com
+your_name                                 : Arthur Hammer
+your_link                                 : https://arthurhammer.de
+your_city                                 : Germany ❤️
+email_address                             : hi@arthurhammer.de
 facebook_username                         :
-instagram_username                        :
+instagram_username                        : ar.hammer
 twitter_username                          :
-github_username                           : anhnc55
+github_username                           : arthurhammer
 youtube_username                          :
 
 
@@ -31,30 +36,29 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Manage a college football team from the palm of your hand!
-    description                           : Play game after game and season after season and build up your program anywhere and everywhere -- all on your phone.
-    fontawesome_icon_name                 : football-ball
+  - title                                 : From Video to Photo
+    description                           : From snowboard tricks to selfie videos to bird watching. Grab and share the coolest frames in your videos!
+    fontawesome_icon_name                 : photo-video
 
-  - title                                 : Play your way to the National Championship!
-    description                           : On any given Saturday, any team can win. Put together a winning roster and challenge the nation's heavyweights to stake your claim to fame.
-    fontawesome_icon_name                 : trophy
+  - title                                 : Highest Quality
+    description                           : Export frames in full resolution whether it be 4K, 5K or 8K. Never take a screenshot again.
+    fontawesome_icon_name                 : star
 
-  - title                                 : Choose from 120 teams in 10 conferences all across the nation!
-    description                           : Build up a local team from the ground up or bounce from program to program to be a major player in college football history.
-    fontawesome_icon_name                 : users
+  - title                                 : Precise Controls
+    description                           : Compare frame by frame and zoom in for all details to find the exact moment you want.
+    fontawesome_icon_name                 : expand
 
-  - title                                 : Scour the nation for premier talent to strengthen your program!
-    description                           : Duke it out with other schools to sign the nation's best high school players to your team.
-    fontawesome_icon_name                 : door-open
+  - title                                 : Works Anywhere
+    description                           : Use your photo library, import from Files or record videos. Even works with Live Photos.
+    fontawesome_icon_name                 : bolt
 
-  - title                                 : Dive into the Transfer Portal to snag some of the best proven talent in the nation!
-    description                           : Find diamonds in the rough that other schools have overlooked to add veteran leadership and bolster your roster.
-    fontawesome_icon_name                 : user-plus
+  - title                                 : Fine-tune the Results
+    description                           : Control the image format and quality. Review and attach Exif metadata.
+    fontawesome_icon_name                 : toggle-on
 
-  - title                                 : Choose how you want to play!
-    description                           : Want to run the option and run over opponents? Want to load the box and force opponents to beat you in the air? Choose from a variety of different playbooks to use and change them between games to out-gameplan your opponent!
-    fontawesome_icon_name                 : clipboard # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
+  - title                                 : Privacy
+    description                           : No ads, no tracking, no funny stuff. Your data is yours.
+    fontawesome_icon_name                 : thumbs-up
 
 
 # Theme Settings
@@ -62,25 +66,25 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               :                     # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#fff"
-cover_overlay_transparency                : 0.0
+cover_image                               : assets/headerimage-v1.3.1.jpg                 # Replace with alternative image path or image URL. When chaning, use new filename for cache busting.
+cover_overlay_color                       : "#4c69af"
+cover_overlay_transparency                : 0.7
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              :                                      # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color                     : "#ffffff"
 
-link_color                                : "#3DB39E"
+link_color                                : "#1d63ea"
 
-app_title_color                           : "#000"
-app_price_color                           : "#666"
-app_description_color                     : "#121212"
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#3DB39E"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#7747FD"
+feature_icons_background_color            : "#7747FD15"
 
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
@@ -107,10 +111,17 @@ footer_text_color                         : "#666666"
 sass:
   style: :compressed # You might prefer to minify using :compressed
 
-baseurl: /
-
 # Exclude these files from your production _site
 exclude:
   - LICENSE
   - README.md
   - CNAME
+  - vendor
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
