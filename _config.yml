@@ -36,7 +36,7 @@ features                                  :
 
   - title                                 : Aesthetic Themes
     description                           : 100+ aesthetic themes for iOS 14. Each can be adjusted precisely to best fit your desired function and appearance.
-    fontawesome_icon_name                 : photo-video
+    fontawesome_icon_name                 : icons
 
   - title                                 : Create your own icons
     description                           : You can create a new app icon from scratch, get your art skills, and personalize to the highest level.
@@ -48,14 +48,14 @@ features                                  :
 
   - title                                 : Photo Widget
     description                           : Decorate your iPhone home screen with your favorite photos.
-    fontawesome_icon_name                 : bolt
+    fontawesome_icon_name                 : images
 
   - title                                 : Easy install
     description                           : Easy themes install without Shortcuts.
     fontawesome_icon_name                 : toggle-on
 
   - title                                 : Privacy
-    description                           : No ads, no tracking, can using offline.
+    description                           : No ads, no tracking, can be used offline.
     fontawesome_icon_name                 : thumbs-up
 
 
