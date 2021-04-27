@@ -1,5 +1,3 @@
-host: 0.0.0.0
-
 #page title
 page_title                                : # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
@@ -98,11 +96,6 @@ footer_text_color                         : "#666666"
 
 
 
-
-
-
-
-
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
 ####################################################
@@ -116,7 +109,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - vendor
 
 collections:
   pages:
