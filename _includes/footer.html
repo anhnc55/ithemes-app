@@ -41,18 +41,4 @@
 		{% endif %}
 
 	</div>
-	<div class="footerLinks">
-		{% for page in site.pages %}
-			{% if page.include_in_footer == true %}
-				{% if page.external_link %}
-				<a href="{{ page.external_link }}" target="_blank">{{ page.title }}</a>
-				{% else %}
-				<a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-		{% if site.presskit_download_link %}
-			<a href="{{ site.presskit_download_link }}">Press Kit</a>
-		{% endif %}
-	</div>
 </footer>
