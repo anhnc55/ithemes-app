@@ -18,19 +18,19 @@
 		<p class="headerName">{{ site.app_name }}</p>
 	</div>
 	<nav class="scroll">
-		<ul>
-			{% for page in site.pages %}
-				{% if page.include_in_header == true %}
-					{% if page.external_link %}
-					<li><a href="{{ page.external_link }}" target="_blank">{{ page.title }}</a></li>
-					{% else %}
-					<li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-					{% endif %}
-				{% endif %}
-			{% endfor %}
-			{% if site.presskit_download_link %}
-				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
-			{% endif %}
-		</ul>
+<!--		<ul>-->
+<!--			{% for page in site.pages %}-->
+<!--				{% if page.include_in_header == true %}-->
+<!--					{% if page.external_link %}-->
+<!--					<li><a href="{{ page.external_link }}" target="_blank">{{ page.title }}</a></li>-->
+<!--					{% else %}-->
+<!--					<li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>-->
+<!--					{% endif %}-->
+<!--				{% endif %}-->
+<!--			{% endfor %}-->
+<!--			{% if site.presskit_download_link %}-->
+<!--				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>-->
+<!--			{% endif %}-->
+<!--		</ul>-->
 	</nav>
 </header>
